@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL         ReqType ReqParam1        ReqParam2 
+0 Base_Attack   BAB     7                ****      
+1 BarbarianRage FEAT    293              ****      
+2 PowerAtk      FEAT    28               ****      
+3 ScriptVar     VAR     nw_AllowBWarrior 0         

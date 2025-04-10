@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIScene name="SCREEN_BEAR_GUI" x="ALIGN_CENTER" y="ALIGN_BOTTOM" width="265" height="212" priority="SCENE_SCRIPT" capturemouseclicks="false" scriptloadable="true" draggable="true" idleexpiretime="0.5" />
+		<UIButton name="BEAR_BUTTON" x=70 y=62 height=58 width=58
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_roar")
+			OnToolTip='UIObject_Tooltip_DisplayTooltipString("Rage Écrasante","OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2")' >
+			<UIFrame state=base	fill="ursan_roar.tga" />
+			<UIFrame state=up	fill="b_empty.tga" />
+			<UIFrame state=down	fill="b_overlay.tga" />
+			<UIFrame state=focused fill="b_empty.tga" />
+			<UIFrame state=hilited fill="b_overlay.tga" />
+			<UIFrame state=hifocus	fill="b_overlay.tga" />
+			<UIFrame state=disabled fill="b_empty.tga" />
+		</UIButton>
+		<UIButton name="BEAR_CHARGE" x=138 y=62 height=58 width=58
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_bearcharg")
+			OnToolTip='UIObject_Tooltip_DisplayTooltipString("Charge Ursine","OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2")' >
+			<UIFrame state=base	fill="ursan_charge.tga" />
+			<UIFrame state=up	fill="b_empty.tga" />
+			<UIFrame state=down	fill="b_overlay.tga" />
+			<UIFrame state=focused fill="b_empty.tga" />
+			<UIFrame state=hilited fill="b_overlay.tga" />
+			<UIFrame state=hifocus fill="b_overlay.tga" />
+			<UIFrame state=disabled fill="b_empty.tga" />
+		</UIButton>
+		<UIButton name="BEAR_TOTEM" x=206 y=62 height=58 width=58
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_beartotem")
+			OnToolTip='UIObject_Tooltip_DisplayTooltipString("Manifestation du Totem","OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2")' >
+			<UIFrame state=base	fill="ursan_totem.tga" />
+			<UIFrame state=up	fill="b_empty.tga" />
+			<UIFrame state=down	fill="b_overlay.tga" />
+			<UIFrame state=focused fill="b_empty.tga" />
+			<UIFrame state=hilited fill="b_overlay.tga" />
+			<UIFrame state=hifocus fill="b_overlay.tga" />
+			<UIFrame state=disabled fill="b_empty.tga" />
+		</UIButton>
+		<UIFrame name="BEAR_GUI_BACKGROUND" x="0" y="0" width="255" height="212" fill="ursashrine.tga" />
